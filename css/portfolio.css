@@ -251,6 +251,41 @@ img {
   line-height: 1.175;
   color: var(--main-color);
 }
+.mobile-menu__tel {
+  margin-top: auto;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.172;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--brand-color);
+}
+.mobile-menu__mail {
+  margin-top: 32px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.172;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--fourth-color);
+}
+.mobile-menu__social-list {
+  display: flex;
+  margin-top: 64px;
+}
+.mobile-menu__social-link {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.222;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--brand-color);
+}
+.mobile-menu__social-link:after {
+  content: "";
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  margin: 0 10px;
+}
 
 .is-open {
   transform: translateX(100%);
